@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98CE441ED1F842D99D9FD87B /* BirthdayNotifierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749DBA2A23584041970CB1F8 /* BirthdayNotifierApp.swift */; };
+		84C4B8DC8824498086CFC4DA /* Birthday.swift in Sources */ = {isa = PBXBuildFile; fileRef = D109611E7FBC4C2492166B02 /* Birthday.swift */; };
+		D2473B3141694827BC7DDA32 /* BirthdayStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22267D8707414B5EA02A9B3B /* BirthdayStore.swift */; };
+		D5F35D168D2541EB924AA007 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82920A8AC9A048D0A1E21B0A /* ContentView.swift */; };
+		98A63734305043F9841E42E3 /* BirthdayRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D3F668A49B412F8037537E /* BirthdayRow.swift */; };
+		2169009C31594BD3803ADC28 /* AddBirthdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C210EB4593947058803E7B5 /* AddBirthdayView.swift */; };
+		8E115B79BA8049CDB6132F18 /* NotificationScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0185924C745B4D20AF9074F5 /* NotificationScheduler.swift */; };
+		07A813592096467CBC2D3C24 /* MessageGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D08C5A86C14B8481BE2F43 /* MessageGenerator.swift */; };
+		33F34212EFB14375824814E6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A70BB471EA439AA17C064C /* SettingsView.swift */; };
+		40706ECE3BB140E5B32BBA52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D773A3EF3F46C6A4278330 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		749DBA2A23584041970CB1F8 /* BirthdayNotifierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayNotifierApp.swift; sourceTree = "<group>"; };
+		D109611E7FBC4C2492166B02 /* Birthday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birthday.swift; sourceTree = "<group>"; };
+		22267D8707414B5EA02A9B3B /* BirthdayStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayStore.swift; sourceTree = "<group>"; };
+		82920A8AC9A048D0A1E21B0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		30D3F668A49B412F8037537E /* BirthdayRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayRow.swift; sourceTree = "<group>"; };
+		8C210EB4593947058803E7B5 /* AddBirthdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBirthdayView.swift; sourceTree = "<group>"; };
+		0185924C745B4D20AF9074F5 /* NotificationScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationScheduler.swift; sourceTree = "<group>"; };
+		2D9EBEAF2C1F4551B09890E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B8122329095422DAD4EBBE0 /* BirthdayNotifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirthdayNotifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37D08C5A86C14B8481BE2F43 /* MessageGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageGenerator.swift; sourceTree = "<group>"; };
+		C0A70BB471EA439AA17C064C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D1D773A3EF3F46C6A4278330 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99D0AF97E12144609CC5D257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4780F200FAB445A1BF0A325E = {
+			isa = PBXGroup;
+			children = (
+				AEB5682A22084BFFA1785F2D /* BirthdayNotifier */,
+				F9F42AC3F68F43FF9C7388ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEB5682A22084BFFA1785F2D /* BirthdayNotifier */ = {
+			isa = PBXGroup;
+			children = (
+				749DBA2A23584041970CB1F8 /* BirthdayNotifierApp.swift */,
+				D1D773A3EF3F46C6A4278330 /* AppDelegate.swift */,
+				37D08C5A86C14B8481BE2F43 /* MessageGenerator.swift */,
+				2D9EBEAF2C1F4551B09890E6 /* Info.plist */,
+				EC26A235CD8C404182A5C415 /* Models */,
+				70BE063C58A140B78D424E00 /* Views */,
+				BE2EC9CBFE6A4724A8C9AC12 /* Notifications */,
+			);
+			path = BirthdayNotifier;
+			sourceTree = "<group>";
+		};
+		EC26A235CD8C404182A5C415 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D109611E7FBC4C2492166B02 /* Birthday.swift */,
+				22267D8707414B5EA02A9B3B /* BirthdayStore.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		70BE063C58A140B78D424E00 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				82920A8AC9A048D0A1E21B0A /* ContentView.swift */,
+				30D3F668A49B412F8037537E /* BirthdayRow.swift */,
+				8C210EB4593947058803E7B5 /* AddBirthdayView.swift */,
+				C0A70BB471EA439AA17C064C /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BE2EC9CBFE6A4724A8C9AC12 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				0185924C745B4D20AF9074F5 /* NotificationScheduler.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		F9F42AC3F68F43FF9C7388ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B8122329095422DAD4EBBE0 /* BirthdayNotifier.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1DE173D407241AA9A7977A8 /* BirthdayNotifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50E6A8285B154E4D86DBCC54 /* Build configuration list for PBXNativeTarget "BirthdayNotifier" */;
+			buildPhases = (
+				0DC76382BAFC42D89B31309F /* Sources */,
+				99D0AF97E12144609CC5D257 /* Frameworks */,
+				947B00A90FC64CD4BCDC5322 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BirthdayNotifier;
+			productName = BirthdayNotifier;
+			productReference = 1B8122329095422DAD4EBBE0 /* BirthdayNotifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30DF73B0E9094A6FBCF8155F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 9CA362258A304BD5A35A47A3 /* Build configuration list for PBXProject "BirthdayNotifier" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4780F200FAB445A1BF0A325E;
+			productRefGroup = F9F42AC3F68F43FF9C7388ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1DE173D407241AA9A7977A8 /* BirthdayNotifier */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		947B00A90FC64CD4BCDC5322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DC76382BAFC42D89B31309F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CE441ED1F842D99D9FD87B /* BirthdayNotifierApp.swift in Sources */,
+				84C4B8DC8824498086CFC4DA /* Birthday.swift in Sources */,
+				D2473B3141694827BC7DDA32 /* BirthdayStore.swift in Sources */,
+				D5F35D168D2541EB924AA007 /* ContentView.swift in Sources */,
+				98A63734305043F9841E42E3 /* BirthdayRow.swift in Sources */,
+				2169009C31594BD3803ADC28 /* AddBirthdayView.swift in Sources */,
+				8E115B79BA8049CDB6132F18 /* NotificationScheduler.swift in Sources */,
+				07A813592096467CBC2D3C24 /* MessageGenerator.swift in Sources */,
+				33F34212EFB14375824814E6 /* SettingsView.swift in Sources */,
+				40706ECE3BB140E5B32BBA52 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		48E57FCF39924137A7305DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BirthdayNotifier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaysuh.BirthdayNotifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A2BF3BC520044A33B2F0B6D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BirthdayNotifier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaysuh.BirthdayNotifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		51997A2ABB1745219FCD9315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLES = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC60086C8627402A8B9EA949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLES = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CA362258A304BD5A35A47A3 /* Build configuration list for PBXProject "BirthdayNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51997A2ABB1745219FCD9315 /* Debug */,
+				CC60086C8627402A8B9EA949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50E6A8285B154E4D86DBCC54 /* Build configuration list for PBXNativeTarget "BirthdayNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48E57FCF39924137A7305DDA /* Debug */,
+				A2BF3BC520044A33B2F0B6D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 30DF73B0E9094A6FBCF8155F /* Project object */;
+}
