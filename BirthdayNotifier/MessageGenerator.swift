@@ -38,7 +38,7 @@ class MessageGenerator {
         request.setValue("BirthdayNotifier", forHTTPHeaderField: "X-Title")
 
         let body: [String: Any] = [
-            "model": "anthropic/claude-3.5-haiku",
+            "model": "openai/gpt-4o-mini",
             "messages": [
                 [
                     "role": "system",
