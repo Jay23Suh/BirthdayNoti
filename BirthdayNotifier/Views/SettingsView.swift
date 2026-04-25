@@ -5,7 +5,6 @@ struct SettingsView: View {
     @State private var apiKey = MessageGenerator.shared.apiKey
     @State private var showKey = false
     @State private var saved = false
-    @State private var testFired = false
     @Environment(\.dismiss) private var dismiss
 
     private var hasExistingKey: Bool { !MessageGenerator.shared.apiKey.isEmpty }
@@ -77,35 +76,6 @@ struct SettingsView: View {
                         .font(.system(size: 10))
                         .foregroundStyle(.tertiary)
                 }
-
-                Divider()
-
-                // Test notification
-                VStack(alignment: .leading, spacing: 6) {
-                    Text("Notifications")
-                        .font(.system(size: 11, weight: .semibold))
-                        .foregroundStyle(.secondary)
-
-                    Button(action: {
-                        sendTestNotification()
-                        testFired = true
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-                            withAnimation { testFired = false }
-                        }
-                    }) {
-                        HStack(spacing: 5) {
-                            Image(systemName: testFired ? "checkmark" : "bell")
-                                .font(.system(size: 11))
-                            Text(testFired ? "Sent — check in 5s" : "Send test notification")
-                                .font(.system(size: 11))
-                        }
-                    }
-                    .buttonStyle(.bordered)
-                    .controlSize(.small)
-                    .tint(testFired ? .green : .primary)
-                    .disabled(testFired)
-                    .animation(.easeInOut(duration: 0.2), value: testFired)
-                }
             }
             .padding(16)
 
@@ -137,16 +107,5 @@ struct SettingsView: View {
             .padding(16)
         }
         .frame(width: 300)
-    }
-
-    private func sendTestNotification() {
-        let content = UNMutableNotificationContent()
-        content.title = "Birthday"
-        content.body = "🎂 2 birthdays today: Jay, Sarah"
-        content.sound = .default
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
-        UNUserNotificationCenter.current().add(
-            UNNotificationRequest(identifier: "birthday-test", content: content, trigger: trigger)
-        )
     }
 }

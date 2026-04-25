@@ -42,7 +42,7 @@ class MessageGenerator {
             "messages": [
                 [
                     "role": "system",
-                    "content": "You write short birthday messages. When given a name, immediately output a warm 2-3 sentence message with an inspirational quote woven in naturally. Never ask for more information. Never start with 'Happy Birthday'. Output only the message, nothing else."
+                    "content": "You write short birthday messages. When given a name, immediately output a warm 2-3 sentence message with an inspirational quote woven in naturally. Draw quotes from a wide range of thinkers, writers, athletes, scientists, philosophers, comedians, or musicians — vary the source every time and avoid overused quotes from Maya Angelou, Helen Keller, or Dr. Seuss. Never ask for more information. Never start with 'Happy Birthday'. Output only the message, nothing else."
                 ],
                 ["role": "user", "content": userMessage]
             ]
