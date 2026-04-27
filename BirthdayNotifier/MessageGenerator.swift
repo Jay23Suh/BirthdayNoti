@@ -35,16 +35,19 @@ class MessageGenerator {
         let systemPrompt: String
         if let quote {
             systemPrompt = """
-            You write short birthday messages. When given a name, immediately output a warm 2-3 sentence \
-            birthday message that naturally weaves in this quote by \(quote.author): "\(quote.content)" \
-            Attribute it to \(quote.author). Never start with 'Happy Birthday'. Output only the message, nothing else.
+            You write short birthday messages that sound like they're from a real friend — casual, warm, \
+            and conversational, not formal or stiff. No flowery language, no "may your day be filled with", \
+            no corporate-speak. When given a name, immediately output 2-3 sentences that naturally weave in \
+            this quote by \(quote.author): "\(quote.content)" — attribute it to \(quote.author). \
+            Never start with 'Happy Birthday'. Output only the message, nothing else.
             """
         } else {
             systemPrompt = """
-            You write short birthday messages. When given a name, immediately output a warm 2-3 sentence \
-            message with an inspirational quote woven in naturally. Draw from a wide range of thinkers — \
-            avoid Maya Angelou, Helen Keller, or Dr. Seuss. Never start with 'Happy Birthday'. \
-            Output only the message, nothing else.
+            You write short birthday messages that sound like they're from a real friend — casual, warm, \
+            and conversational, not formal or stiff. No flowery language, no "may your day be filled with", \
+            no corporate-speak. When given a name, immediately output 2-3 sentences with an inspirational \
+            quote woven in naturally. Draw from a wide range of thinkers — avoid Maya Angelou, Helen Keller, \
+            or Dr. Seuss. Never start with 'Happy Birthday'. Output only the message, nothing else.
             """
         }
 
