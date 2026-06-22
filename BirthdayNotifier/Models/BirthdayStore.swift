@@ -21,6 +21,14 @@ class BirthdayStore: ObservableObject {
         merge()
     }
 
+    /// Re-evaluates today/upcoming sections and re-sorts against the current date.
+    /// Call this whenever the popover is about to be shown — the view is created once
+    /// at launch and only re-renders when `birthdays` changes, so without this the
+    /// "today" state can go stale while the app sits open across a day boundary.
+    func refresh() {
+        merge()
+    }
+
     func add(_ birthday: Birthday) {
         manualBirthdays.append(birthday)
         saveManual()

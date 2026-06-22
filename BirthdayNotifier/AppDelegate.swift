@@ -36,6 +36,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     private func openPopover() {
         guard let button = statusItem.button else { return }
+        store.refresh()
         popover.show(relativeTo: button.bounds, of: button, preferredEdge: .minY)
         popover.contentViewController?.view.window?.makeKey()
 
